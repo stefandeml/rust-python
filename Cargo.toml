@@ -1,0 +1,13 @@
+[package]
+name = "rust-python"
+version = "0.1.0"
+authors = ["Stefan Deml <stefandeml@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+name = "foo"
+path = "src/lib.rs"
+
+[dependencies]
+libc = "0.2.49"
